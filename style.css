@@ -169,31 +169,3 @@ input:focus {
   color: #000;
 }
 
-img {
-  position: absolute;
-  width: 50%;
-  border-radius: 5px;
-  right: 10%;
-  animation: animate 5s infinite;
-}
-.blur {
-  filter: blur(10px);
-}
-
-@keyframes animate {
-  50% {
-    right: 30%;
-  }
-  100% {
-    right: 10%;
-  }
-}
-
-.close-modal {
-  position: absolute;
-  top: 0;
-  left: 10px;
-  font-weight: bold;
-  font-size: 2rem;
-  z-index: 5;
-}
